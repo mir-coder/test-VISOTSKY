@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Test</title>
+  <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+
+  <main class="main">
+    <div class="container">
+      <div class="btn">
+        <a href="javascript:PopUpShow()">Show popup</a>
+      </div>
+    </div>
+    <div class="popup">
+      <div class="popup__wrapper">
+        <a class="popup__close" href="javascript:PopUpHide()">
+          <img src="images/Path.svg" alt="close">
+        </a>
+        <div class="popup__container">
+          <div class="popup__img">
+            <img src="images/book.png" alt="book">
+          </div>
+          <div class="popup__content">
+            <h1 class="popup__title">мастер-класс?</h1>
+            <p class="popup__text">Скачайте пошаговый план</p>
+            <p class="popup__text"><span>«Как собственнику выйти из операционки»</span></p>
+            <p class="popup__text">и познакомьтесь с этим инструментом <b>прямо сейчас</b></p>
+            <p class="popup__text-intro">10 шагов помогут создать системный бизнес</p>
+            <form class="popup__form" action="#">
+              <p class="popup__form-text">
+                Для получения бонуса введите email
+              </p>
+              <input class="popup__form-email" type="text" placeholder="Ваш e-mail">
+              <button class="popup__form-btn" type="submit">Скачать пошаговый план</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+
+
+  <script src="js/main.min.js"></script>
+</body>
+
+</html>
